@@ -55,6 +55,6 @@ if __name__ == "__main__":
     parser.add_argument('numbers', type=int, nargs='+')
     arguments = parser.parse_args()
 
-    results = average_of_squares(arguments.numbers, arguments)
+    results = average_of_squares(arguments.numbers)
 
     print(results)
